@@ -13,7 +13,7 @@ const SingleNotFound = () => {
                 <p>This video with
                     <span className=" px-1 text-red-500 font-semibold">
                         {videoId}
-                    </span>id was not found!</p>
+                    </span>id was not found</p>
                 <Link href={'/'}>
                     <button className="px-2 py-3 rounded-md text-white border-2 border-green-500">
                         Back to Home
