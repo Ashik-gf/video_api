@@ -1,0 +1,1 @@
+self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST="[{\"source\":\"/:lang/videos/:id\",\"destination\":\"/__NEXT_EMPTY_PARAM__/(.)videos/:id\",\"has\":[{\"type\":\"header\",\"key\":\"Next-Url\",\"value\":\"(?:\\\\/([^\\\\/#\\\\?]+?))(?:\\\\/(.*))?[\\\\/#\\\\?]?\"}]}]"
