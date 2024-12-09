@@ -27,9 +27,6 @@ const LanguageSwitcher = () => {
   const found = languages.find(lang => pathname.includes(lang.code));
   const [selectedLanguage, setSelectedLanguage] = useState(found ?? languages[0]);
   const [showManu, setShowManu] = useState(false);
-  // const [langPhoto, setLangPhoto] = useState(languages)
-
-  console.log(found);
 
 
   const handleLanguageChange = lang => {
